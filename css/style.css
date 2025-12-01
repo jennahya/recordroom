@@ -1,0 +1,698 @@
+
+   *,
+   *::before,
+   *::after {
+     box-sizing: border-box;
+   }
+   
+   :root {
+     --bg: #fdfdfd;
+     --page-bg: #ffffff;
+     --ink: #050505;
+     --ink-soft: #666666;
+   
+     --accent: #f4c744;
+     --accent-2: #b02b45;
+     --accent-3: #a9f0d1;
+   
+     --card-bg: #ffffff;
+     --border-strong: #000000;
+     --border-light: #e0e0e0;
+     --pill-bg: #f8f8f8;
+   
+     --shadow-soft: 0 6px 0 rgba(0, 0, 0, 0.18);
+   
+     --font-sans: "Space Grotesk", system-ui, -apple-system, sans-serif;
+   
+     --radius-pill: 999px;
+     --radius-card: 4px;
+     --radius-chip: 999px;
+   }
+   
+   html,
+   body {
+     margin: 0;
+     padding: 0;
+     font-family: var(--font-sans);
+     color: var(--ink);
+     background: var(--bg);
+   }
+   
+
+   body::before,
+   body::after {
+     content: "";
+     position: fixed;
+     left: 0;
+     right: 0;
+     height: 6px;
+     background: var(--border-strong);
+     z-index: 2000;
+   }
+   
+   body::before {
+     top: 0;
+   }
+   
+   body::after {
+     bottom: 0;
+   }
+
+   a {
+     color: inherit;
+     text-decoration: none;
+   }
+
+   a:focus-visible,
+   button:focus-visible,
+   input:focus-visible,
+   select:focus-visible {
+     outline: 3px solid var(--accent-3);
+     outline-offset: 3px;
+   }
+   
+
+
+
+  .home {
+    min-height: calc(100vh - 60px); 
+    display: grid;
+    place-items: center;
+    padding: 4rem 1.5rem;
+  }
+  
+  .hero {
+    background: var(--page-bg);
+    width: min(900px, 100%);
+    padding: 3rem 2.5rem;
+    border: 4px solid var(--border-strong);
+    box-shadow: var(--shadow-soft);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  
+
+  .hero h1 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 7vw, 4.8rem);
+    font-weight: 900;
+    text-transform: lowercase;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    color: var(--ink);
+  }
+  
+
+  .tabs-top {
+    position: absolute;
+    left: 2rem;
+    top: 1.75rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  
+  .tab {
+    padding: 0.45rem 0.9rem;
+    border-radius: 0;
+    border: 2px solid var(--border-strong);
+    background: var(--pill-bg);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 650;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.12s ease, box-shadow 0.12s ease,
+      background 0.12s ease, border-color 0.12s ease;
+    white-space: nowrap;
+  }
+  
+  .tab::before {
+    content: "●";
+    font-size: 0.55rem;
+    color: var(--accent-2);
+  }
+
+
+
+
+
+  @media (max-width: 720px) {
+    .hero {
+      padding: 3rem 1.5rem 2.5rem;
+    }
+  
+    .tabs-top {
+      left: 50%;
+      transform: translateX(-50%);
+      justify-content: center;
+    }
+  
+    .hero-title-bg {
+      font-size: clamp(3rem, 12vw, 4.4rem);
+    }
+  }
+  
+   /* ===============================
+      COLLECTION PAGE
+      =============================== */
+   
+   .records {
+     min-height: 100vh;
+     padding: 2.5rem 1.5rem 3rem;
+     max-width: 1120px;
+     margin: 0 auto;
+     background: var(--page-bg);
+     border: 4px solid var(--border-strong);
+     box-shadow: var(--shadow-soft);
+   }
+   
+   /* compact, left-aligned hero on collection page */
+   .records > .hero {
+    margin: 0 0 0.75rem;     /* no auto centering */
+    padding: 0 0 0.25rem;    /* let .records padding handle the left edge */
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: flex-start;
+    text-align: left;
+  }
+   
+   /* smaller title on collection page */
+   .records > .hero h1 {
+     font-size: clamp(2.1rem, 4vw, 2.6rem);
+     line-height: 1;
+   }
+   
+   /* kill the “archive” subline on this page */
+   .records > .hero h1::after,
+   .records .hero-subcopy,
+   .records .records-tagline {
+     display: none;
+   }
+   
+   /* hide any extra tabs row directly under hero on this page */
+   .records > .tabs {
+     display: none;
+   }
+   
+   /* ---------- toolbar row: filters + search + sort ---------- */
+   
+   /* ========= ROW 1: SITE NAV ========= */
+
+.site-nav {
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border: 2px solid var(--border-strong);
+  padding: 0.45rem 0.75rem;
+  background: #ffffff;
+}
+
+.nav-link {
+  padding: 0.35rem 0.9rem;
+  border: 2px solid var(--border-strong);
+  background: var(--pill-bg);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 650;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  background: #ffffff;
+}
+
+.nav-link-active {
+  background: var(--accent);
+}
+
+/* ========= ROW 2: RECORD CONTROLS (filters + search + sort) ========= */
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0 0 1.5rem;
+  border-radius: 0;
+  border: 2px solid var(--border-strong);
+  padding: 0.7rem 1rem;
+  background: #ffffff;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* left = filter tabs, middle = search, right = sort */
+.control-group.filters {
+  flex: 0 0 auto;
+}
+
+.control-group.search {
+  flex: 1 1 220px;
+}
+
+.control-group.sort {
+  flex: 0 0 auto;
+}
+
+/* labels if you ever add them */
+.control-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--ink-soft);
+}
+
+/* inputs/selects */
+#search-input,
+#sort-select {
+  border-radius: 0;
+  border: 2px solid var(--border-strong);
+  padding: 0.4rem 0.9rem;
+  background: #ffffff;
+  font-size: 0.78rem;
+  min-width: 0;
+}
+
+#search-input {
+  width: 100%;
+}
+
+#search-input::placeholder {
+  color: #999999;
+}
+
+/* tabs inside controls – stay on one line */
+.controls .tab {
+  padding-inline: 1.1rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer; /* makes them feel interactive */
+}
+
+/* 🔥 FILTER HOVER STATE */
+.controls .tab:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
+  background: var(--accent);
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+
+/* 🔥 ACTIVE FILTER STATE */
+.controls .tab.active {
+  background: var(--accent);
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+
+@media (max-width: 720px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .control-group.filters,
+  .control-group.search,
+  .control-group.sort {
+    flex: 1 1 auto;
+    justify-content: flex-start;
+  }
+}
+
+
+   /* ---------- record grid ---------- */
+   
+   .record-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+     gap: 1.4rem;
+   }
+   
+   /* cards */
+   .record-card {
+     display: flex;
+     flex-direction: column;
+     background: var(--card-bg);
+     border-radius: 0;
+     border: 3px solid var(--border-strong);
+     padding: 0.6rem 0.6rem 0.85rem;
+     transition: transform 0.12s ease, box-shadow 0.12s ease;
+   }
+   
+   .record-card:hover {
+     transform: translateY(-3px);
+     box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .record-cover {
+     width: 100%;
+     border: 2px solid var(--border-strong);
+     object-fit: cover;
+     aspect-ratio: 1 / 1;
+     background: #f0f0f0;
+   }
+   
+   .record-card h2 {
+     margin: 0.6rem 0 0.1rem;
+     font-family: var(--font-display);
+     font-size: 0.95rem;
+     text-transform: uppercase;
+     letter-spacing: 0.12em;
+   }
+
+  /* ---------- record store grid (Field Notes) ---------- */
+
+.store-map-section {
+  margin-top: 3rem;
+}
+
+.store-map-section h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin: 0 0 0.75rem;
+}
+
+/* The actual map */
+#record-store-map {
+  width: 100%;
+  height: 420px;
+  border: 3px solid var(--border-strong);
+  margin: 1.5rem 0 1.75rem;
+  background: #f5f5f5;
+}
+
+/* Grid of store cards under the map */
+.store-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+/* Store card styling – echoes .record-card */
+.store-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg);
+  border-radius: 0;
+  border: 3px solid var(--border-strong);
+  padding: 0.7rem 0.8rem 0.95rem;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.store-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.store-card h3 {
+  margin: 0 0 0.25rem;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* rating + address lines */
+.store-card p {
+  margin: 0.15rem 0;
+  font-size: 0.78rem;
+}
+
+.store-card p strong {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+/* notes = hidden by default, show when card is open */
+.store-notes {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  display: none;
+}
+/* InfoWindow content styling (Google Maps popup) */
+.map-info-window {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  max-width: 260px;
+  padding: 0.4rem 0.2rem;
+}
+
+.map-notes {
+  margin: 0;
+  color: var(--ink);
+}
+
+   
+   .artist {
+     margin: 0;
+     font-size: 0.75rem;
+     color: var(--ink-soft);
+   }
+   
+   .meta {
+     margin-top: 0.45rem;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 0.3rem;
+     align-items: center;
+     font-size: 0.66rem;
+     text-transform: uppercase;
+     letter-spacing: 0.16em;
+   }
+   
+   .year {
+     padding: 0.12rem 0.5rem;
+     border: 1px solid var(--border-strong);
+     background: #ffffff;
+     border-radius: var(--radius-chip);
+   }
+   
+   .genre-tag {
+     padding: 0.12rem 0.55rem;
+     border: 1px dashed var(--border-strong);
+     border-radius: var(--radius-chip);
+   }
+   
+   .favorite-badge {
+     margin-left: auto;
+     font-size: 0.95rem;
+     color: var(--accent-2);
+   }
+   
+   /* ===============================
+      DETAIL PAGE
+      =============================== */
+   
+   .detail-header {
+     max-width: 1120px;
+     margin: 4rem auto 1rem;
+     padding: 0 1.5rem;
+   }
+   
+   .back-link {
+     display: inline-flex;
+     align-items: center;
+     gap: 0.4rem;
+     text-transform: uppercase;
+     letter-spacing: 0.18em;
+     font-size: 0.7rem;
+     padding: 0.25rem 0.7rem;
+     border: 2px solid var(--border-strong);
+     background: #ffffff;
+   }
+   
+   .back-link:hover {
+     background: var(--accent);
+     color: #050505;
+   }
+   
+   .detail-main {
+     max-width: 1120px;
+     margin: 0 auto 4rem;
+     padding: 0 1.5rem;
+   }
+   
+   #record-detail {
+     display: grid;
+     grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.6fr);
+     gap: 2.2rem;
+   }
+   
+   @media (max-width: 820px) {
+     #record-detail {
+       grid-template-columns: 1fr;
+     }
+   }
+   
+   .cover {
+     width: 100%;
+     max-width: 420px;
+     border: 4px solid var(--border-strong);
+     background: #f0f0f0;
+     box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
+   }
+   
+   .detail-info {
+     background: var(--card-bg);
+     border: 3px solid var(--border-strong);
+     padding: 1.6rem 1.6rem 1.9rem;
+   }
+   
+   .detail-info h2 {
+     margin: 0;
+     font-family: var(--font-display);
+     font-size: 1.4rem;
+     text-transform: uppercase;
+     letter-spacing: 0.16em;
+   }
+   
+   .detail-artist {
+     margin: 0.3rem 0 0.7rem;
+     font-size: 0.9rem;
+     color: var(--ink-soft);
+   }
+   
+   .detail-meta {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 0.35rem;
+     font-size: 0.7rem;
+     text-transform: uppercase;
+     letter-spacing: 0.16em;
+     margin-bottom: 1rem;
+   }
+   
+   .detail-meta span {
+     padding: 0.18rem 0.6rem;
+     border: 1px solid var(--border-strong);
+     background: #ffffff;
+     border-radius: var(--radius-chip);
+   }
+   
+   .detail-section {
+     margin-top: 1.2rem;
+     padding-top: 0.8rem;
+     border-top: 1px solid var(--border-light);
+   }
+   
+   .detail-section h3 {
+     margin: 0 0 0.55rem;
+     font-size: 0.78rem;
+     text-transform: uppercase;
+     letter-spacing: 0.18em;
+   }
+   
+   .tracklist {
+     width: 100%;
+     border-collapse: collapse;
+     font-size: 0.8rem;
+   }
+   
+   .tracklist tr:nth-child(even) {
+     background: #f5f5f5;
+   }
+   
+   .track-pos,
+   .track-title,
+   .track-time {
+     padding: 0.3rem 0.45rem;
+   }
+   
+   .track-time {
+     text-align: right;
+   }
+   
+   .credits-list {
+     list-style: none;
+     margin: 0.2rem 0 0;
+     padding: 0;
+     font-size: 0.78rem;
+     display: grid;
+     gap: 0.25rem;
+   }
+   
+   .credit-name {
+     font-weight: 600;
+   }
+   
+   .credit-role {
+     margin-left: 0.35rem;
+     color: var(--ink-soft);
+   }
+   
+   /* footer */
+   footer {
+     text-align: center;
+     font-size: 0.7rem;
+     letter-spacing: 0.16em;
+     text-transform: uppercase;
+     color: var(--ink-soft);
+     margin: 2.5rem 0 2rem;
+   }
+   
+/* Section wrapper */
+.store-map-section {
+  margin-top: 3rem;
+}
+
+/* Map container (if not already styled) */
+#record-store-map {
+  width: 100%;
+  height: 420px;
+  border: 3px solid var(--border-strong, #333);
+  margin: 1.5rem 0;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
+  background: #ffffff;
+  border-color: var(--accent);
+}
+
+
+.crate {
+  border: 3px solid var(--border-strong);
+  padding: 1rem;
+  background: var(--page-bg);
+  display: grid;
+  gap: 0.7rem;
+  margin-top: 1.5rem;
+}
+
+.crate-item {
+  border-bottom: 2px dashed var(--border-strong);
+  padding-bottom: 0.4rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+}
+
+.crate-item:last-child {
+  border-bottom: none;
+}
