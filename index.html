@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>collection – jenna’s record room</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="records">
+    
+
+        <section class="hero">
+            <div class="hero-text">
+              <h1>Jenna's Record Room</h1>
+            </div>
+          </section>
+
+
+    <nav class="site-nav" aria-label="Site navigation">
+      <a href="index.html" class="nav-link nav-link-active">Home</a>
+      <a href="notes.html" class="nav-link">Field Notes</a>
+      <a href="wishlist.html" class="nav-link">wish list</a>
+    </nav>
+
+
+    <div class="controls" aria-label="Record filters">
+
+      <div class="control-group filters">
+        <button
+          class="tab active"
+          type="button"
+          data-filter="all"
+        >
+          All
+        </button>
+        <button
+          class="tab"
+          type="button"
+          data-filter="regular-rotation"
+        >
+          Regular rotation
+        </button>
+      </div>
+
+
+      <div class="control-group search">
+        <input
+          id="search-input"
+          type="search"
+          placeholder="search by title, artist, genre"
+          aria-label="Search records by title, artist, or genre"
+        />
+      </div>
+
+
+      <div class="control-group sort">
+        <select id="sort-select" aria-label="Sort records">
+          <option value="title-asc">A–Z (title)</option>
+          <option value="title-desc">Z–A (title)</option>
+          <option value="year-desc">Year (new → old)</option>
+          <option value="year-asc">Year (old → new)</option>
+        </select>
+      </div>
+    </div>
+
+
+    <section id="record-grid" class="record-grid" aria-live="polite">
+
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+  <footer>
+    <p>built with love for vinyl 🎵</p>
+</footer>
+</body>
+</html>
+
+
+

@@ -1,0 +1,1065 @@
+[
+    {
+      "id": "rec2",
+      "title": "Digital Works",
+      "artist": "Ahmad Jamal",
+      "year": 1985,
+      "genre": "jazz",
+      "favorite": false,
+      "cover": "album covers/digitalworks.png",
+      "category": "solid-picks"
+    },
+    {
+      "id": "rec3",
+      "title": "All of You",
+      "artist": "Ahmad Jamal",
+      "year": 1952,
+      "genre": "jazz",
+      "favorite": false,
+      "cover": "album covers/allofyou.png",
+    "category": "solid-picks"
+    },
+    {
+      "id": "rec4",
+      "title": "Subhana = سبحان",
+      "artist": "Ahmed Ben Ali",
+      "year": 2023,
+      "genre": "reggae",
+      "favorite": false,
+      "cover": "album covers/subhana.png",
+        "category": "solid-picks",
+        "discogs_id": 27340926
+    },
+    {
+      "id": "rec5",
+      "title": "Back to Black",
+      "artist": "Amy Winehouse",
+      "year": 2006,
+      "genre": "soul",
+      "favorite": false,
+      "cover": "album covers/backtoblack.png",
+        "category": "solid-picks"
+    },
+    {
+      "id": "rec6",
+      "title": "Whatever People Say I Am, That's What I'm Not",
+      "artist": "Arctic Monkeys",
+      "year": 2006,
+      "genre": "alt rock",
+      "favorite": false,
+      "cover": "album covers/whateverpeoplesay.png",
+        "category": "back-shelfers"
+    },
+    {
+      "id": "rec7",
+      "title": "AM",
+      "artist": "Arctic Monkeys",
+      "year": 2013,
+      "genre": "alt rock",
+      "favorite": false,
+      "cover": "album covers/am.png",
+      "category": "regular-rotation"
+    },
+    {
+      "id": "rec8",
+      "title": "Who's Zoomin Who?",
+      "artist": "Aretha Franklin",
+      "year": 1985,
+      "genre": "R&B",
+      "favorite": false,
+      "cover": "album covers/whoszoomin.png"
+    },
+    {
+      "id": "rec9",
+      "title": "IV",
+      "artist": "BADBADNOTGOOD",
+      "year": 2014,
+      "genre": "electronic, jazz",
+      "favorite": false,
+      "cover": "album covers/iv.png",
+      "category": "regular-rotation"
+    },
+    {
+      "id": "rec10",
+      "title": "Sings The George And Ira Gershwin Song Books",
+      "artist": "Ella Fitzgerald",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 2645040
+    },
+    {
+      "id": "rec11",
+      "title": "The Billie Holiday Songbook",
+      "artist": "Billie Holiday",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/songbookbill.jpg"
+    },
+    {
+      "id": "rec12",
+      "title": "Debut",
+      "artist": "Björk",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/debut.png"
+    },
+    {
+      "id": "rec13",
+      "title": "Blue Note Live at the Roxy",
+      "artist": "Blue Note All-Stars",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec14",
+      "title": "i,i",
+      "artist": "Bon Iver",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/ii.jpg"
+    },
+    {
+      "id": "rec15",
+      "title": "Buena Vista Social Club",
+      "artist": "Buena Vista Social Club",
+      "year": 1996,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/buenavista.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec16",
+      "title": "The Cannonball Adderley Quintet Featuring Nat Adderley – The Cannonball Adderley Quintet In San Francisco",
+      "year": 1960,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/sanfran.jpg",
+      "discogs_id": 1053118
+    },
+    {
+      "id": "rec17",
+      "title": "Ghost Song",
+      "artist": "Cécile McLorin Salvant",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/ghostsong.jpg"
+    },
+    {
+      "id": "rec18",
+      "title": "Echoes of an Era",
+      "artist": "Chaka Khan, Freddie Hubbard, Joe Henderson, Chick Corea, Stanley Clarke, Lenny White",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/echoes.jpg"
+    },
+    {
+      "id": "rec19",
+      "title": "Ah Um",
+      "artist": "Charles Mingus",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/ahum.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec20",
+      "title": "Cumbia and Jazz Fusion",
+      "artist": "Charles Mingus",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/cumbiamingus.jpg"
+    },
+    {
+      "id": "rec21",
+      "title": "Charlie Parker Volume V",
+      "artist": "Charlie Parker",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/charlievol5.jpg"
+    },
+    {
+      "id": "rec22",
+      "title": "\"Bird\" Symbols",
+      "artist": "Charlie Parker",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/birdsymbols.jpeg"
+    },
+    {
+      "id": "rec23",
+      "title": "Chet Baker Sings",
+      "artist": "Chet Baker",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/chetsings.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec24",
+      "title": "Return to Forever",
+      "artist": "Chick Corea",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/return.jpg"
+    },
+    {
+      "id": "rec25",
+      "title": "Piano Improvisations Vol. 2",
+      "artist": "Chick Corea",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/pianoimprov.webp"
+    },
+    {
+      "id": "rec26",
+      "title": "Sunrise Reprise",
+      "artist": "Chris Potter Circuits Trio",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/sunrise.jpg"
+    },
+    {
+      "id": "rec27",
+      "title": "Cityscape",
+      "artist": "Claus Ogerman and Michael Brecker",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec28",
+      "title": "Three Giants",
+      "artist": "Clifford Brown, Sonny Rollins, Max Roach",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/threegiants.jpg"
+    },
+    {
+      "id": "rec29",
+      "title": "Instead.",
+      "artist": "Collocutor",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/instead.jpg"
+    },
+    {
+      "id": "rec30",
+      "title": "At the Jazz Opera House",
+      "artist": "Conrad Silvert",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec31",
+      "title": "The Atomic Mr. Basie",
+      "artist": "Count Basie",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/atomic.webp",
+         "category": "regular-rotation"
+    },
+    {
+      "id": "rec32",
+      "title": "Live Cream Volume II",
+      "artist": "Cream",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 1595922
+    },
+    {
+      "id": "rec33",
+      "title": "Curtis",
+      "artist": "Curtis Mayfield",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/curtis.jpg"
+    },
+    {
+      "id": "rec34",
+      "title": "Black Messiah",
+      "artist": "D'Angelo and the Vanguard",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec35",
+      "title": "The Black Messiah",
+      "artist": "D'Angelo and the Vanguard",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec36",
+      "title": "The Wild Youth",
+      "artist": "Daughter",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/wildyouth.jpg"
+    },
+    {
+      "id": "rec37",
+      "title": "Time Out",
+      "artist": "Dave Brubeck Quartet",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/timout.jpg"
+    },
+    {
+      "id": "rec38",
+      "title": "Mala",
+      "artist": "Devendra Banhart",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec39",
+      "title": "Ma",
+      "artist": "Devendra Banhart",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+         "category": "regular-rotation"
+    },
+    {
+      "id": "rec40",
+      "title": "Cripple Crow",
+      "artist": "Devendra Banhart",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec41",
+      "title": "Rejoicing in the Hands/ Niño Rojo",
+      "artist": "Devendra Banhart",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec42",
+      "title": "Sophisticated Giant",
+      "artist": "Dexter Gordon",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec43",
+      "title": "Casablanca",
+      "artist": "Dez Andrés & Victor Kiswell",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+         "category": "regular-rotation"
+    },
+    {
+      "id": "rec44",
+      "title": "Dinner Party",
+      "artist": "Dinner Party",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+         "category": "regular-rotation"
+    },
+    {
+      "id": "rec46",
+      "title": "The Best of Django Reinhardt",
+      "artist": "Django Reinhardt",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec47",
+      "title": "Out of the Blue",
+      "artist": "Electric Light Orchestra",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec48",
+      "title": "Ella Fitzgerald Sings the George and Ira Gershwin Songbook Vol. 5",
+      "artist": "Ella Fitzgerald",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec49",
+      "title": "Mack the Knife: Ella in Berlin",
+      "artist": "Ella Fitzgerald",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec50",
+      "title": "The Elf",
+      "artist": "Erroll Garner",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec51",
+      "title": "Mama's Gun",
+      "artist": "Erykah Badu",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec52",
+      "title": "Emily's D+Evolution",
+      "artist": "Esperanza Spalding",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec53",
+      "title": "Wahdon",
+      "artist": "Fairuz & Ziad Rahbani",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec54",
+      "title": "Expensive Shit",
+      "artist": "Fela Kuti",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec55",
+      "title": "Flying Lessons",
+      "artist": "Fools Gold",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec56",
+      "title": "Channel Live",
+      "artist": "Frank Ocean",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec57",
+      "title": "Channel Orange",
+      "artist": "Frank Ocean",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec60",
+      "title": "The Slam! Years",
+      "artist": "Hamid El Shaeri",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec61",
+      "title": "The Brass Are Comin'",
+      "artist": "Herb Albert & The Tijuana Brass",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec62",
+      "title": "Takin' Off",
+      "artist": "Herbie Hancock Quintet",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec63",
+      "title": "Donuts",
+      "artist": "J Dilla",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec64",
+      "title": "New Soil",
+      "artist": "Jackie McLean",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec65",
+      "title": "Soul Classics Vo.II.",
+      "artist": "James Brown",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec66",
+      "title": "Axis: Bold as Love, The Jimi Hendrix Experience",
+      "artist": "Jimi Hendrix",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec67",
+      "title": "A Love Supreme",
+      "artist": "John Coltrane",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec68",
+      "title": "Round Again",
+      "artist": "Joshua Redman Quartet",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec69",
+      "title": "The Best of Julie",
+      "artist": "Julie London",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec70",
+      "title": "Harmony of Difference",
+      "artist": "Kamasi Washington",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec71",
+      "title": "DAMN.",
+      "artist": "Kendrick Lamar",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec72",
+      "title": "Mr. Morale & the Big Steppers",
+      "artist": "Kendrick Lamar",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec73",
+      "title": "good kid m.a.a.d. city",
+      "artist": "Kendrick Lamar",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec74",
+      "title": "untitled unmastered.",
+      "artist": "Kendrick Lamar",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec75",
+      "title": "Texas Sun",
+      "artist": "Khruangbin",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec76",
+      "title": "Duets with the Spanish Guitar Album 3",
+      "artist": "Laurindo Almeida",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec77",
+      "title": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec78",
+      "title": "Louis Armstrong's Hello, Dolly!",
+      "artist": "Louis Armstrong",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec79",
+      "title": "Swimming",
+      "artist": "Mac Miller",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec80",
+      "title": "Operation: Doomsday",
+      "artist": "MF Doom",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec81",
+      "title": "Agharta",
+      "artist": "Miles Davis",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec82",
+      "title": "The Complete Birth of the Cool",
+      "artist": "Miles Davis",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+         "category": "regular-rotation"
+    },
+    {
+      "id": "rec83",
+      "title": "1928 Sessions",
+      "artist": "Mississippi John Hurt",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 4365584
+    },
+    {
+      "id": "rec84",
+      "title": "After the Rain",
+      "artist": "Muddy Waters",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec85",
+      "title": "The Free Music",
+      "artist": "Nahib Alhoush",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec86",
+      "title": "In tune",
+      "artist": "Oscar Peterson Trio + The Singers Limited",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec88",
+      "title": "That's It",
+      "artist": "Preservation Hall Jazz Band",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec89",
+      "title": "Let's Go Crazy!",
+      "artist": "Prince and the Revolution",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec90",
+      "title": "Weissenberg Complete Rachmaninoff Preludes",
+      "artist": "Rachmaninoff, Alexis Weissenberg",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec91",
+      "title": "The Incomparable Ray Charles",
+      "artist": "Ray Charles",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec92",
+      "title": "El Khat",
+      "artist": "Saadia Jefferson",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec93",
+      "title": "Egypt Strut",
+      "artist": "Salah Ragab - Prism Music Unit",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec94",
+      "title": "Santana Abraxas",
+      "artist": "Santana",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec95",
+      "title": "The Lonely Hours",
+      "artist": "Sarah Vaughan",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 2660258
+    },
+    {
+      "id": "rec96",
+      "title": "Sebastiao Tapajos & Pedro Dos Santos",
+      "artist": "SSebastiao Tapajos & Pedro Dos Santos",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 5681761
+    },
+    {
+      "id": "rec97",
+      "title": "Temporary Highs in Violet Skies",
+      "artist": "Snoh Aalegra",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+         "category": "regular-rotation"
+    },
+    {
+      "id": "rec98",
+      "title": "A Seat at the Table",
+      "artist": "Solange",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec99",
+      "title": "Way Out West",
+      "artist": "Sonny Rollins",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec100",
+      "title": "A Tribute To Duke Ellington (With Strings)",
+      "artist": "Sonny Stitt",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 2895295
+    },
+    {
+      "id": "rec101",
+      "title": "Getz/Gilberto",
+      "artist": "Stan Getz and Joao Gilberto",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec102",
+      "title": "Miracle Mile",
+      "artist": "STRFKR",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec103",
+      "title": "Being No One, Going Nowhere",
+      "artist": "STRFKR",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec104",
+      "title": "The Slow Rush",
+      "artist": "Tame Impala",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec105",
+      "title": "Notice",
+      "artist": "Tammy Lakkis",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec106",
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec107",
+      "title": "Mercy, Mercy, Mercy! Live at \"The Club\"",
+      "artist": "The Cannonball Adderley Quintet",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec108",
+      "title": "Plus",
+      "artist": "The Cannonball Adderley Quintet",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 1846063
+    },
+    {
+      "id": "rec109",
+      "title": "Little David's Fugue",
+      "artist": "The Modern Jazz Ensemble",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/littledavid.jpg"
+    },
+    {
+      "id": "rec110",
+      "title": "Ghost in the Machine",
+      "artist": "The Police",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec111",
+      "title": "Thee Sacred Souls",
+      "artist": "Thee Sacred Souls",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+        "category": "regular-rotation"
+    },
+    {
+      "id": "rec112",
+      "title": "Monk's Dream",
+      "artist": "Thelonious Monk Quartet",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec113",
+      "title": "It is What it is",
+      "artist": "Thundercat",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec114",
+      "title": "The Golden Age Of Apocalypse",
+      "artist": "Thundercat",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 3083674
+    },
+    {
+      "id": "rec115",
+      "title": "\"Drunk\"",
+      "artist": "Thundercat",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec116",
+      "title": "Taqasim And Layali (Cairo Tradition)",
+      "artist": "Unesco Collection",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 2703434
+    },
+    {
+      "id": "rec117",
+      "title": "Sex and Food",
+      "artist": "Unknown Mortal Orchestra",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec118",
+      "title": "Abu Ali",
+      "artist": "Ziad Rahbani",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg"
+    },
+    {
+      "id": "rec119",
+      "title": "Habibi Funk - An Eclectic Selection Of Music From The Arab World, Part 2",
+      "artist": "Various Artists",
+      "year": null,
+      "genre": null,
+      "favorite": false,
+      "cover": "album covers/default.jpg",
+      "discogs_id": 20152732,
+        "category": "regular-rotation"
+    }
+  ]
